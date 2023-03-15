@@ -1,4 +1,5 @@
 # Ejercicios Tema 10
+Enlace a los ejercicios: https://github.com/Silvia452/EjerciciosTema10/tree/master
 
 # 1. El cálculo de la raíz cuadrada
 
