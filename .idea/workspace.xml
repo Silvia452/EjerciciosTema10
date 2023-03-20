@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f0c072c-dc0c-4e8b-92df-a2498e2330a9" name="Changes" comment="Terminado ejercicio 2">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="9f0c072c-dc0c-4e8b-92df-a2498e2330a9" name="Changes" comment="Más cambios">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +52,7 @@
       <workItem from="1678986380917" duration="1359000" />
       <workItem from="1679057332534" duration="587000" />
       <workItem from="1679135365154" duration="26000" />
+      <workItem from="1679315523305" duration="331000" />
     </task>
     <task id="LOCAL-00001" summary="Terminado ejercicio 2">
       <created>1679135019121</created>
@@ -60,7 +61,28 @@
       <option name="project" value="LOCAL" />
       <updated>1679135019124</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Más cambios">
+      <created>1679315601174</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1679315601174</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Más cambios">
+      <created>1679315659788</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1679315659788</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Más cambios">
+      <created>1679315714661</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1679315714661</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -79,6 +101,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Terminado ejercicio 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Terminado ejercicio 2" />
+    <MESSAGE value="Más cambios" />
+    <option name="LAST_COMMIT_MESSAGE" value="Más cambios" />
   </component>
 </project>
