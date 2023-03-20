@@ -13,6 +13,7 @@ public class Operacion {
         this.num2 = num2;
     }
 
+
     public int getNum1() {
         return num1;
     }

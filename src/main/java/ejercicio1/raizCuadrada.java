@@ -8,6 +8,7 @@ public class raizCuadrada {
         calcularRaizCuadrada();
     }
 
+
     static final Scanner sn = new Scanner(System.in);
 
     public static void calcularRaizCuadrada(){
@@ -29,8 +30,6 @@ public class raizCuadrada {
             }
 
         }while(!verdadero);
-
-
 
 
     }
