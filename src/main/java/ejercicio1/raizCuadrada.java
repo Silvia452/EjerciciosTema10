@@ -17,20 +17,18 @@ public class raizCuadrada {
         boolean verdadero = false;
         do{
             try{
-                if (numero<0){
+                if (numero<0){ // Si el número es negativo, se lanza ArithmeticException
                     throw new Exception("La raíz cuadrada no está definida para un número negativo.");
                 }
                 else{
-                    double raiz = Math.sqrt(numero);
+                    double raiz = Math.sqrt(numero);  //calcular la raiz cuadrada
                     verdadero = true;
-                    System.out.println("La raiz cuadrada de " + numero + " es: " + raiz);
+                    System.out.println("La raiz cuadrada de " + numero + " es: " + raiz);  //mostrar el resultado
                 }
             } catch (Exception e) {
                 throw new RuntimeException(e);
             }
 
         }while(!verdadero);
-
-
     }
 }
