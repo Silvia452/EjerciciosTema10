@@ -20,7 +20,7 @@ public class Main {
                     break;
                 }
                 System.out.println("Introducir un número entero:");
-                int num2 = Integer.parseInt(scanner.nextLine());
+                int num2 = Integer.parseInt(scanner.nextLine()); // Si no es un número entero, se lanza NumberFormatException
                 int result = 0;
                 switch (op) {
                     case "+":
@@ -48,9 +48,9 @@ public class Main {
                         throw new IllegalArgumentException("Operador inválido");
                 }
                 System.out.printf("%d %s %d = %d%n", num1, op, num2, result);
-            } catch (NumberFormatException e) {
+            } catch (NumberFormatException e) { // Si no es un número entero, se lanza NumberFormatException
                 System.out.println("Valor introducido incorrecto. Inténtelo de nuevo...");
-            } catch (DesbordaCapacidadExcepcion e) {
+            } catch (DesbordaCapacidadExcepcion e) { // Si el resultado de la operación es demasiado grande, se lanza DesbordaCapacidadExcepcion
                 System.out.println(e.getMessage() + " Inténtelo de nuevo...");
             } catch (ArithmeticException e) {
                 System.out.println(e.getMessage());
